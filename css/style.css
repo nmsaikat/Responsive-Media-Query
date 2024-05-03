@@ -1,7 +1,7 @@
 .containet {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 30px;
 }
 .food {
   border: 1px solid tomato;
@@ -10,6 +10,19 @@
 }
 .food img {
   width: 90%;
+}
+
+button {
+  border: 1px solid tomato;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: tomato;
+  color: #fff;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #fff;
+  color: tomato;
 }
 
 /* Smaller Device */
